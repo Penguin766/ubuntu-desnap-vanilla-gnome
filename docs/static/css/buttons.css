@@ -1,0 +1,46 @@
+.main_button{
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    padding: 10px 20px;
+    margin: 20px 5px;
+    font-size: 150%;
+    cursor: pointer;
+}
+.nav_button{
+
+    display: none;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.main_button:hover {
+    background-color: rgba(100, 100, 100, .8);
+    transition: .3s ease-in-out;
+}
+.main_button:active {
+    background-color: rgba(100, 100, 100, 1);
+    transition: .3s ease-in-out;
+}
+
+
+.git_button{
+    background: linear-gradient(to bottom right, rgba(255, 0, 0, .7), rgba(0, 0, 255, 1));
+}
+
+.download_button{
+    background: linear-gradient(to bottom right, rgba(34, 139, 34, .7), rgba(100, 128, 0, 1));
+}
+
+.navigation__link{
+    color: white;
+    margin: auto 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navigation__link:hover {
+    font-weight: bolder;
+    letter-spacing: initial;
+    transition: .2s ease-in;
+}

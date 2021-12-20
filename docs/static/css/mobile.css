@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px){
+    .main-info__title{
+        text-transform: capitalize;
+        font-size: 200%;
+        margin: 10px;
+        font-weight: bolder;
+    }
+    .navigation__link{
+        display: none;
+    }
+    .main_button{
+        margin: 10px 5px;
+    }
+    .header-inner{
+        justify-content: normal;
+    }
+    .nav_button{
+        display: initial;
+    }
+    .points{
+        display: block;
+
+    }
+    .points__inner{
+        display: block;
+        padding-top: 10px;
+    }
+    .point__subtitle{
+        font-size: 20px;
+    }
+    .grid{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .grid-view{
+        display: none;
+    }
+    .point__title {
+        font-size: 30px;
+    }
+    .point {
+        width: 90%;
+    }
+    .description__title {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 520px){
+    .screenshot {
+        display: none;
+    }
+    .r{
+        text-align: center;
+    }
+    .l{
+        text-align: center;
+    }
+}

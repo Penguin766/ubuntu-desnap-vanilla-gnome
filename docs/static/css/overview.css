@@ -1,0 +1,41 @@
+.overview{
+
+}
+
+.description{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
+.description__title{
+    font-size: 50px;
+    margin: 10px;
+    font-weight: bolder;
+
+}
+.description__text{
+    font-size: 20px;
+    margin: 10px;
+
+}
+.description__content{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.r{
+    text-align: right;
+}
+.l{
+    text-align: left;
+}
+
+.description__content> span{
+    display: block;
+}
+.screenshot{
+    margin: 10px 20px;
+}

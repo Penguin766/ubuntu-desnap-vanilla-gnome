@@ -1,0 +1,134 @@
+.blog{
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url(../img/mac.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.blog_inner{
+    width: 100%;
+    padding: 30px 0px;
+
+}
+.blog-title{
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.blog-title > span {
+    display: block;
+}
+.blog-title__title{
+    font-size: 50px;
+    margin: 10px 20px;
+    font-weight: bolder;
+    /*color: black;*/
+    display: block;
+}
+.blog-title__subtitle{
+    font-size: 30px;
+    /*color: black;*/
+    display: block;
+}
+.blog-item{
+
+}
+.blog-item>img{
+    width: 45%;
+}
+
+
+
+.slider2 {
+
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.slides2 {
+    display: flex;
+
+    overflow-x: auto;
+    /*scroll-snap-type: x mandatory;*/
+
+
+
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+
+}
+.slides2::-webkit-scrollbar {
+    display: none;
+}
+.slides2::-webkit-scrollbar-thumb {
+
+    display: none;
+}
+.slides2::-webkit-scrollbar-track {
+    display: none;
+}
+.slides2 > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    background-color: rgba(255,255,255,.1);
+
+    align-items: center;
+    justify-content: center;
+    /*display: flex;*/
+    color: white;
+    text-align: center;
+    display: flex;
+    font-size: 100px;
+}
+.author-info {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+.author-info a {
+    color: white;
+}
+
+.slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+    background-color: #029e7f;
+    color: white;
+}
+.slider > a:active {
+    top: 1px;
+}
+
+.slider > a:focus {
+    background: #000;
+}
+

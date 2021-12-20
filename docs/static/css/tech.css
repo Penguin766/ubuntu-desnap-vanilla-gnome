@@ -1,0 +1,26 @@
+.tech-used-section{
+    /*margin: 60px 20px;*/
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+}
+.tech-used-section__inner{
+    padding: 30px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.tech-used-section__inner > span{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.logos{
+    /*margin: 40px 10px 10px;*/
+}
+/*.logos > img{*/
+    /*margin: 30px;*/
+/*}*/
+.tech-used-img{
+
+}

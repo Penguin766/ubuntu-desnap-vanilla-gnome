@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "header.css";
+@import "grid.css";
+@import "main.css";
+@import "buttons.css";
+@import "overview.css";
+@import "points.css";
+@import "grid-view.css";
+@import "tech.css";
+@import "carousel.css";
+@import "blog.css";
+@import "mobile.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');

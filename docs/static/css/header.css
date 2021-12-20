@@ -1,0 +1,32 @@
+.header{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.navigation{
+
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+
+}
+
+.logo-img {
+    height: 30px;
+    margin-right: 5px;
+}
+

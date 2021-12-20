@@ -1,0 +1,56 @@
+
+.black_bg{
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url(../img/oldbuilding.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gitlogo{
+    height: 20px;
+    padding-right: 5px;
+}
+
+
+.main-inner{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.main-info > span{
+    display: block;
+}
+
+.main-info__title{
+    text-transform: capitalize;
+    font-size: 1000%;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.main-info__subtitle{
+    text-transform: capitalize;
+    font-size: 200%;
+
+    margin: 10px;
+}
+
+.down_arrow{
+    height: 25px;
+    position: absolute;
+    left: calc(50% - 25px);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    bottom: 10px;
+}
