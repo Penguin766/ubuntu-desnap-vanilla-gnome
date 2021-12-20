@@ -1,6 +1,6 @@
 # Ubuntu Desnapified! 
 
-This project is based and improved upon Ubuntu Remixes.
+This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubuntu-unity/ubuntu-remixes).
 
 To remix an iso you need `mtools` and `xorriso`: 
 ```sudo apt install mtools xorriso```
