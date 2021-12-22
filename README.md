@@ -1,4 +1,4 @@
-# Ubuntu Desnapified! 
+# Ubuntu Desnapified! + Vanilla Gnome 41 desktop
 
 This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubuntu-unity/ubuntu-remixes).
 
@@ -7,6 +7,11 @@ To remix an iso you need `mtools` and `xorriso`:
 
 To download a fresh iso from ubuntu servers (this will also start re-assembling it with your modifications): 
 ```./fetch_build```
+
+!!!IMPORTANT!!!
+While building, an nano editor will pop up because of an Ubuntu package bug that makes vanilla Gnome fail to install.
+All you need to do is replace the entry ```gdm3-theme.gresource``` with ```gdm-theme.gresource```.
+After you do this, Gnome will be reconfigured and good to go.
 
 To remix again without downloading:
 ```sudo make```
