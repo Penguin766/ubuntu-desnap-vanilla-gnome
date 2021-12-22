@@ -8,6 +8,10 @@ add-apt-repository -y --no-update multiverse
 apt update -y
 
 # Install software
+apt install vanilla-gnome-desktop vanilla-gnome-default-settings
+nano /var/lib/dpkg/info/vanilla-gnome-default-settings.postinst
+apt install -y -f
+apt purge -y ubuntu-desktop ubuntu-session
 apt purge -y snapd
 apt-mark hold snapd 
 apt install -y wget curl gnome-tweaks git flatpak gnome-software gnome-software-plugin-flatpak
