@@ -7,6 +7,8 @@ This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubun
 To remix an iso you need `mtools` and `xorriso`: 
 ```sudo apt install mtools xorriso```
 
+For building on Pop! OS hosts you will also need to install the: ```squashfs-tools``` package before building 
+
 To download a fresh iso from ubuntu servers (this will also start re-assembling it with your modifications): 
 ```./fetch_build```
 
