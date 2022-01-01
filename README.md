@@ -1,6 +1,6 @@
 # Ubuntu Desnapified! + Vanilla Gnome 40 desktop
 
-Ready-made ISOs: https://drive.google.com/drive/folders/17JxECAwQkHD_nn7n_-45aiB_XDyFGZ0d
+Ready-made ISOs: https://drive.google.com/drive/folders/1WYUpsWM0GV0cDiHzqJfZUJTvqvkqrpgh?usp=sharing
 
 This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubuntu-unity/ubuntu-remixes).
 
