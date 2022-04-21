@@ -1,4 +1,4 @@
-# Ubuntu Desnapified! + Vanilla Gnome 40 desktop
+# Ubuntu Desnapified! + Vanilla Gnome 42 desktop
 
 Ready-made ISOs: https://drive.google.com/drive/folders/1WYUpsWM0GV0cDiHzqJfZUJTvqvkqrpgh?usp=sharing
 
