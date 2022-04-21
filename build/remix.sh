@@ -8,7 +8,7 @@ add-apt-repository -y --no-update multiverse
 apt update -y
 
 # Install vanilla Gnome desktop and remove Ubuntu session
-apt install vanilla-gnome-desktop vanilla-gnome-default-settings
+apt install -y vanilla-gnome-desktop vanilla-gnome-default-settings
 apt install -y -f
 apt purge -y ubuntu-desktop ubuntu-session
 
@@ -28,9 +28,9 @@ apt install -y wget curl gnome-tweaks git flatpak gnome-software gnome-software-
 flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install Gnome web browser (epiphany) insted of default Firefox snap
-sudo apt install epiphany-browser
+sudo apt install -y epiphany-browser
 
 # Installs gnome extensions.
-apt install gnome-shell-extension-gsconnect
+# apt install gnome-shell-extension-gsconnect
 # bash ./install-gnome-extensions.sh --enable 517 779 448 4228
 # Extensions are as follows: caffeine clipboard-indicator remove-rounded-corners sound-output-device-chooser
