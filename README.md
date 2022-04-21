@@ -1,4 +1,4 @@
-# Ubuntu Desnapified! + Vanilla Gnome 40 desktop
+# Ubuntu Desnapified! + Vanilla Gnome 42 desktop
 
 Ready-made ISOs: https://drive.google.com/drive/folders/1WYUpsWM0GV0cDiHzqJfZUJTvqvkqrpgh?usp=sharing
 
@@ -12,10 +12,6 @@ For building on Pop! OS hosts you will also need to install the: ```squashfs-too
 To download a fresh iso from ubuntu servers (this will also start re-assembling it with your modifications): 
 ```./fetch_build```
 
-!!!IMPORTANT!!!
-While building, an nano editor will pop up because of an Ubuntu package bug that makes vanilla Gnome fail to install.
-All you need to do is replace the entry ```gdm3-theme.gresource``` with ```gdm-theme.gresource```.
-After you do this, Gnome will be reconfigured and good to go.
 
 To remix again without downloading:
 ```sudo make```
