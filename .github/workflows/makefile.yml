@@ -8,14 +8,14 @@ on:
 
 jobs:
   build:
-
+  
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     
-     - name: Install dependencies
-       run: sudo apt -y install build-essential mtools xorriso grub-common squashfs-tools
+    - name: Install dependencies
+      run: sudo apt -y install build-essential mtools xorriso grub-common squashfs-tools
     
     - name: build
       run: ./fetch_build
