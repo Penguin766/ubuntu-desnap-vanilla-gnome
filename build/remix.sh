@@ -31,6 +31,6 @@ flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo apt install epiphany-browser
 
 # Installs gnome extensions.
-apt install gnome-shell-extension-gsconnect gnome-shell-extension-no-annoyance
+apt install gnome-shell-extension-gsconnect
 # bash ./install-gnome-extensions.sh --enable 517 779 448 4228
 # Extensions are as follows: caffeine clipboard-indicator remove-rounded-corners sound-output-device-chooser
