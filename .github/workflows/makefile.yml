@@ -17,6 +17,17 @@ jobs:
     - name: Install dependencies
       run: sudo apt -y install build-essential mtools xorriso grub-common squashfs-tools
     
-    - name: build
+    - name: Build
       run: ./fetch_build
       
+    - name: Create output folder
+      run: mkdir out
+      
+    - name: Move ISO to the output folder
+      run: mv ubuntu-desnap-vanilla-gnome-22.04.iso out
+      
+    - name: Upload ISO
+      uses: actions/upload-artifact@v2
+        with: 
+          name: output
+          path: out
