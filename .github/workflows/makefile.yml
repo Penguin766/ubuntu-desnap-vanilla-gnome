@@ -1,0 +1,33 @@
+name: Build ISO
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install dependencies
+      run: sudo apt -y install build-essential mtools xorriso grub-common squashfs-tools
+    
+    - name: Build
+      run: ./fetch_build
+      
+    - name: Create output folder
+      run: mkdir out
+      
+    - name: Move ISO to the output folder
+      run: mv ubuntu-desnap-vanilla-gnome-22.04.iso out
+      
+    - name: Upload ISO
+      uses: actions/upload-artifact@v3
+      with:
+          name: output
+          path: out
