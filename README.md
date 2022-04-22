@@ -7,6 +7,8 @@ This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubun
 To remix an iso you need `mtools` and `xorriso`: 
 ```sudo apt install mtools xorriso```
 
+This repo now supports building the ISO image using the GitHub actions CI, you can fork the repo if you want to build using CI.
+
 For building on Pop! OS hosts you will also need to install the: ```squashfs-tools``` and ```grub-common``` packages before building. (Dont't worry it will not install GRUB)
 
 To download a fresh iso from ubuntu servers (this will also start re-assembling it with your modifications): 
