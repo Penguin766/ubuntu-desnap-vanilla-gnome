@@ -4,7 +4,7 @@ Ready-made ISOs: https://drive.google.com/drive/folders/1WYUpsWM0GV0cDiHzqJfZUJT
 
 This project is based and improved upon [Ubuntu Remixes](https://gitlab.com/ubuntu-unity/ubuntu-remixes).
 
-To remix an iso you need `mtools` and `xorriso`: 
+To locally build an iso you need `mtools` and `xorriso`: 
 ```sudo apt install mtools xorriso```
 
 This repo now supports building the ISO image using the GitHub actions CI, you can fork the repo if you want to build using CI.
