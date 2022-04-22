@@ -23,14 +23,9 @@ snap remove --purge snapd
 
 # Remove snapd from the system and install flatpak
 apt purge -y snapd
+apt install -y flatpak gnome-software gnome-software-plugin-flatpak
 apt-mark hold snapd
-apt install -y wget curl gnome-tweaks git flatpak gnome-software gnome-software-plugin-flatpak
 flatpak remote-add --system flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install Gnome web browser (epiphany) insted of default Firefox snap
 sudo apt install -y epiphany-browser
-
-# Installs gnome extensions.
-# apt install gnome-shell-extension-gsconnect
-# bash ./install-gnome-extensions.sh --enable 517 779 448 4228
-# Extensions are as follows: caffeine clipboard-indicator remove-rounded-corners sound-output-device-chooser
