@@ -1,6 +1,15 @@
 name: Build ISO
 
 on:
+ workflow_dispatch:
+  inputs:
+   logLevel:
+    description: 'Build ISO image'
+    required: true
+    default: 'jammy'
+  tags:
+   description: 'Build ISO using CI'
+   
   push:
     branches: [ master ]
   pull_request:
