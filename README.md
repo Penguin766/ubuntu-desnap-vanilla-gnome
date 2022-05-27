@@ -26,4 +26,4 @@ To change what modifications to apply, change `build/remix.sh` file.
 
 To change where to get iso from, change `fetch_build.conf` file.
 
-To change how your ISO is presented in it's GRUB2, change `grub.cfg` file.
+To change how your ISO is presented in it's GRUB2, change `grub.cfg` file. 
