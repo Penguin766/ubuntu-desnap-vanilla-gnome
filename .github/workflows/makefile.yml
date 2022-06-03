@@ -45,6 +45,6 @@ jobs:
         # GitHub auth token
         token: ${{ secrets.FP_TOKEN }}
         # Name for the asset
-        asset-name: ubuntu-desnap-vanilla-gnome-22.04.zip
+        asset-name: ubuntu-desnap-vanilla-gnome-22.04.iso
         # File to release
-        file: ubuntu-desnap-vanilla-gnome-22.04.zip
+        file: ubuntu-desnap-vanilla-gnome-22.04.iso
