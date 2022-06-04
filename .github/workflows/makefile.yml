@@ -37,6 +37,9 @@ jobs:
           name: ubuntu-desnap-vanilla-gnome-22.04
           path: out
           
+    - name: cd to the output folder
+      run: cd out
+          
     - name: Release file
       # You may pin to the exact commit or the version.
       # uses: djnicholson/release-action@e9a535b3eced09c460e07a84118fb74ae9b53236
