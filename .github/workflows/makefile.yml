@@ -36,18 +36,3 @@ jobs:
       with:
           name: ubuntu-desnap-vanilla-gnome-22.04
           path: out
-          
-    - name: cd to the output folder
-      run: cd out
-          
-    - name: Release file
-      # You may pin to the exact commit or the version.
-      # uses: djnicholson/release-action@e9a535b3eced09c460e07a84118fb74ae9b53236
-      uses: djnicholson/release-action@v2.10
-      with:
-        # GitHub auth token
-        token: ${{ secrets.FP_TOKEN }}
-        # Name for the asset
-        asset-name: ubuntu-desnap-vanilla-gnome-22.04.iso
-        # File to release
-        file: ubuntu-desnap-vanilla-gnome-22.04.iso
